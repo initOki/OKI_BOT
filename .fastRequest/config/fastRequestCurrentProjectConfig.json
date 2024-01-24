@@ -10,6 +10,10 @@
 				{
 					"env":"local ip",
 					"url":"http://172.30.1.89:4321"
+				},
+				{
+					"env":"vercel",
+					"url":"https://oki-bot.vercel.app"
 				}
 			],
 			"name":"OKI_Bot"
@@ -17,7 +21,8 @@
 	],
 	"envList":[
 		"local",
-		"local ip"
+		"local ip",
+		"vercel"
 	],
 	"headerList":[],
 	"ignoreParseFieldList":[],

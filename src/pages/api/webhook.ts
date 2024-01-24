@@ -7,7 +7,7 @@ export const POST: APIRoute = async ({ request }) => {
   const callBackData = new BuildConverter(body);
   await axios
     .post(
-      'https://hooks.slack.com/services/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',
+      import.meta.env.SLACK_WEBHOOK_URL,
       {
         blocks: callBackData.convert.blocks,
       },
